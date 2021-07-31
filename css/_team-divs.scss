@@ -1,0 +1,22 @@
+.team-all {
+    min-height: 100vh;
+    padding: 10px 60px;
+
+    @media screen and (max-width: 1024px) and (orientation: portrait) {
+        padding: 10px;
+    }
+
+    @media screen and (max-width: 992px) and (orientation: landscape) {
+        padding: 10px;
+    }
+}
+
+.team-single {
+    min-height: 100vh;
+    padding: 20px 100px;
+
+
+    @media screen and (max-width: 1024px) {
+        padding: 10px;
+    }
+}
