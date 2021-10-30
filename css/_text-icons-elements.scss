@@ -1,0 +1,73 @@
+h1,
+h2,
+p,
+ul,
+.slider-txt,
+.leadership-team,
+.name,
+.position,
+.back-to-site {
+    font-family: 'Quicksand';
+    color: #DEDED6;
+}
+
+h1,
+h2,
+.position {
+    border-bottom: 1px solid #DEDED6;
+    padding-bottom: 1em;
+}
+
+h1,
+.leadership-team {
+    font-size: calc(20px + 12 * (100vw / 1920));
+    font-weight: 600;
+}
+
+h2,
+.name {
+    font-size: calc(14px + 10 * (100vw / 1920));
+    font-weight: 600;
+}
+
+.name,
+.position,
+.social-media {
+    margin-bottom: .5em;
+    text-align: center;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: white;
+}
+
+p,
+ul,
+.slider-txt,
+.position,
+.back-to-site {
+    font-size: calc(9px + 6 * (100vw / 1920));
+}
+
+.slider-txt {
+    padding: 2em 1em;
+}
+
+.position {
+    height: 4.2em;
+}
+
+.fas,
+.fab {
+    color: #DEDED6;
+}
+
+.leadership-team {
+    text-align: center;
+    margin: 10px auto;
+    animation: headsUp ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    display: block;
+}

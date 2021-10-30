@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../fonts/Quicksand-VariableFont_wght.ttf');
+}
+
+html,
+body {
+    overflow-x: hidden;
+    margin: 0;
+    width: 100%;
+}
+
+body {
+    background-image: url("../img/G68b-2.svg");
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+@import "../css/team-divs";
+@import "../css/team-cards";
+@import "../css/profiles";
+@import "../css/btn";
+@import "../css/text-icons-elements";
+@import "../css/images";
+@import "../css/css-animations";
+@import "../css/swiper";
+
+
+
+
+
+
+
+
+
